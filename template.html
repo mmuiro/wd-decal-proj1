@@ -8,23 +8,120 @@
     <title>Your Personal Website: Template 1</title>
 </head>
 <body>
-    <div class="splash-page">
-        <div class="navbar">
-            <div class="logo"></div>
-            <div class="nav">
-                <div class="nav-button">About</div>
-                <div class="nav-button">Portfolio</div>
-                <div class="nav-button">Contact</div>
+    <div class="page-wrapper">
+        <div class="splash-page">
+            <div class="splash-left">
+                <p class="logo">qoprime</p>
+                <div class="splash-content">
+                    <div class="headline">
+                        <h2 class="headline-name">Zhuoyi Li</h1>
+                        <p class="headline-desc">CTF player, studying computer science @ UCB.</p>
+                        <a class="headline-button shadow" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="splash-right shadow">
+                <div class="splash-img shadow">
+                    <img src="assets/logo192.png" style="width: 80%"/>
+                </div>
+                <div class="navbar">
+                    <div class="nav">
+                        <a class="nav-button" href="#">
+                            About
+                        </a>
+                        <a class="nav-button" href="#portfolio">
+                            Portfolio
+                        </a>
+                        <a class="nav-button" href="#contact">Contact</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
-        <div class="headline"></div>
-    </div>
-    <div class="portfolio">
-        <div class="proj-col">
-            <div class="proj-name"></div>
+        <div class="hori-divide"></div>
+        <div class="portfolio shadow" id="portfolio">
+            <div class="proj-col">
+                <div class="proj-section">
+                    <div class="proj-section-col">
+                        <div class="proj-name card title-text">
+                            <p>(Actual) Personal Site</p>
+                        </div>
+                        <div class="proj-name card title-text">
+                            <p>Visual Novel Timepiece</p>
+                        </div>
+                        <div class="proj-name card title-text">
+                            <p>Maku Pattern Creation Tool</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-section">
+                    <div class="proj-section-img card">
+                        <img src="assets/logo512.png" style="width: 50%"/>
+                    </div>
+                    <div class="proj-section-col">
+                        <div class="proj-name card">
+                            <p>(Actual) Personal Site</p>
+                        </div>
+                        <div class="proj-desc card">
+                            <p>My actual personal site.</p>
+                            <a href="https://www.qopri.me">qopri.me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-col">
+                <div class="proj-section">
+                    <div class="proj-section-img card ">
+                        <img src="assets/vntp-logo.png" style="width: 50%"/>
+                    </div>
+                    <div class="proj-section-col">
+                        <div class="proj-name card">
+                            <p>VN Timepiece</p>
+                        </div>
+                        <div class="proj-desc card ">
+                            <p>Website for tracking personal visual novel reading times and reading history.</p>
+                            <a href="https://github.com/mmuiro/vn-timepiece">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-section">
+                    <div class="proj-section-img card">
+                        <img src="assets/questionmark.png" style="width: 50%"/>
+                    </div>
+                    <div class="proj-section-col">
+                        <div class="proj-name card">
+                            <p>Maku Pattern Creation Tool</p>
+                        </div>
+                        <div class="proj-desc card">
+                            <p>Platform for easy creation of bullet hell (danmaku) patterns. In progress.</p>
+                            <a href="https://github.com/mmuiro/maku-pattern-creation-tool">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="proj-col">
-            <div class="proj-name"></div>
+        <div class="hori-divide"></div>
+        <div class="contact shadow" id="contact">
+            <span class="title-text" style="margin-bottom: 1rem;">Contact Me</span>
+            <div class="contact-list">
+                <div class="contact-entry">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <span>jzli@qopri.me</span>
+                </div>
+                <div class="contact-entry">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <span>
+                        747-235-9014
+                    </span>
+                </div>
+                <div class="contact-entry">
+                    <span>Discord: qopruzjf #5047</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
